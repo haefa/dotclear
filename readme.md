@@ -31,21 +31,24 @@
 `$ sudo apt install ssh`
 
 - *Install* apache, MySQL, dan PHP
-`$ sudo apt install apache2`
-`$ sudo apt install mysql-server`
-`$ sudo apt install php`
-`$ sudo apt install libapache2-mod-php`
-`$ sudo apt install php-mysql`
-`$ sudo apt install php-gd php-mcrypt php-mbstring php-xml php-ssh2`
-`$ sudo service apache2 restart`
-
+```
+$ sudo apt install apache2
+$ sudo apt install mysql-server
+$ sudo apt install php
+$ sudo apt install libapache2-mod-php
+$ sudo apt install php-mysql
+$ sudo apt install php-gd php-mcrypt php-mbstring php-xml php-ssh2
+$ sudo service apache2 restart
+```
 - Buat database untuk Dotclear
 `$ mysql -u root -p`
-`CREATE DATABASE dotclear;`
-`CREATE USER dotclear IDENTIFIED BY 'dotclear';`
- `GRANT ALL PRIVILEGES ON dotclear.* TO dotclear;"`
+```
+	CREATE DATABASE dotclear;
+	CREATE USER dotclear IDENTIFIED BY 'dotclear';
+	GRANT ALL PRIVILEGES ON dotclear.* TO dotclear;"
+ ```
 
-- Pindah ke direktori web di lokalhost
+- Pindah ke direktori web di localhost
 `$ cd /var/www/html/`
 
 - Mendownload packages terakhir dari situs dotclear.org
@@ -55,9 +58,11 @@
 `$ tar -xvzf latest.tar.gz`
 
 -  Mengatur hak akses
-`$ sudo chmod a+w cache/`
-`$ sudo chmod a+w inc/`
-`$ sudo chmod a+w public/`
+```
+$ sudo chmod a+w cache/
+$ sudo chmod a+w inc/
+$ sudo chmod a+w public/
+```
 
 - Mengakses web `localhost:8888/dotclear/`
 # Konfigurasi
@@ -96,28 +101,11 @@ Untuk mengakses maintenance, maka memilih menu plugins lalu memilih sub menu mai
 
 # Cara Pemakaian
 [`^ kembali ke atas ^`](#)
-1. Akses Bludit melalui localhost anda dengan masuk ke 127.0.0.1
 
-2. Buat akun Bludit anda.
-<img src="https://raw.githubusercontent.com/pramesywaraj/bludit-asik/master/Screenshots/Screenshot%20(2).png"></img>
-
-3. Login dengan akun anda.
-<img src="https://raw.githubusercontent.com/pramesywaraj/bludit-asik/master/Screenshots/Screenshot%20(3).png"></img>
-
-4. Untuk membuat konten baru, masuk ke halaman dashboard dengan cara klik `admin panel` dibagian `Set up your new site`
-<img src="https://raw.githubusercontent.com/pramesywaraj/bludit-asik/master/Screenshots/screenshot-localhost-2018.03.19-16-27-31.png"></img>
-
-5. Tampilan Dashboard admin
-<img src="https://raw.githubusercontent.com/pramesywaraj/bludit-asik/master/Screenshots/Screenshot%20(4).png"></img>
-
-6. Untuk membuat post baru pilih menu `New content` pada bagian `PUBLISH`
-<img src="https://raw.githubusercontent.com/pramesywaraj/bludit-asik/master/Screenshots/Screenshot%20(6).png"></img>
-
-7. PIlih `Save` dan konten telah ter-publish
-<img src="https://raw.githubusercontent.com/pramesywaraj/bludit-asik/master/Screenshots/Screenshot%20(7).png"></img>
 
 # Pembahasan
 [`^ kembali ke atas ^`](#)
+
 
 # Referensi
 https://www.linuxhelp.com/how-to-install-dotclear-in-ubuntu/
