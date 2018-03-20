@@ -24,11 +24,15 @@
 
 **Proses Instalasi :**
 - *Update* sistem dengan versi yang terbaru
-`$ sudo apt-get update -y`
+```
+$ sudo apt-get update -y
+```
 
 - *Install* ssh
-`$ sudo apt update`
-`$ sudo apt install ssh`
+```
+$ sudo apt update
+$ sudo apt install ssh
+```
 
 - *Install* apache, MySQL, dan PHP
 ```
@@ -41,7 +45,9 @@ $ sudo apt install php-gd php-mcrypt php-mbstring php-xml php-ssh2
 $ sudo service apache2 restart
 ```
 - Buat database untuk Dotclear
-`$ mysql -u root -p`
+```
+$ mysql -u root -p
+```
 ```
 	CREATE DATABASE dotclear;
 	CREATE USER dotclear IDENTIFIED BY 'dotclear';
@@ -49,13 +55,19 @@ $ sudo service apache2 restart
  ```
 
 - Pindah ke direktori web di localhost
-`$ cd /var/www/html/`
+```
+$ cd /var/www/html/
+```
 
 - Mendownload packages terakhir dari situs dotclear.org
-`$ wget http://download.dotclear.org/latest.tar.gz`
+```
+$ wget http://download.dotclear.org/latest.tar.gz
+```
 
 - Mengekstrak packages yang telah didownload
-`$ tar -xvzf latest.tar.gz`
+```
+$ tar -xvzf latest.tar.gz
+```
 
 -  Mengatur hak akses
 ```
@@ -65,6 +77,7 @@ $ sudo chmod a+w public/
 ```
 
 - Mengakses web `localhost:8888/dotclear/`
+-
 # Konfigurasi
 [`^ kembali ke atas ^`](#)
 Untuk mengakses konfigurasi, maka memilih menu System settings lalu memilih sub menu about:config.
@@ -108,6 +121,5 @@ Untuk mengakses maintenance, maka memilih menu plugins lalu memilih sub menu mai
 
 
 # Referensi
-https://www.linuxhelp.com/how-to-install-dotclear-in-ubuntu/
-
-https://dotclear.org
+1. [Dotclear](https://dotclear.org/) - dotclear
+2. [ How To Install Dotclear In Ubuntu](https://www.linuxhelp.com/how-to-install-dotclear-in-ubuntu/) - linuxhelp
