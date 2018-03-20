@@ -112,14 +112,45 @@ Untuk mengakses maintenance, maka memilih menu plugins lalu memilih sub menu mai
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/4.JPG?raw=true"></img>
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/5.JPG?raw=true"></img>
 
+
 # Cara Pemakaian
 [`^ kembali ke atas ^`](#)
-
+1. Akses dotclear melalui [http://localhost:888/dotclear](http://localhost:8888/dotclear)
+2. Melakukan registrasi admin, menentukan nama database dan password database
+<img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/1.png?raw=true"></img>
+3. Mengisi informasi pengguna beserta password pengguna
+<img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/2.png?raw=true"></img>
+4. Sebelum menggunakan dotclear, login terlebih dahulu
+<img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/login.JPG?raw=true"></img>
+5. Setelah itu akan ditampilkan halaman dashboard, yang terdapat berbagai menu yaitu My favorites, Blog, System setting, Plugins
+<img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/dashboard.JPG?raw=true"></img>
+6. Selanjutnya kita membuat postingan blog, klik new entry dan tulis postingan
+<img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/new%20entry.JPG?raw=true"></img>
+7. Setelah postingan di save akan ada pilihan comment, jika kita ingin memberikan komentar maka klik comment
+<img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/new%20entry.JPG?raw=true"></img>
 
 # Pembahasan
 [`^ kembali ke atas ^`](#)
+**Dotclear** merupakan salah satu aplikasi *open source blog publishing* dan *Content Management System (CMS)* naungan *General Public License (GNU)*. Dotclear ditulis dalam bahasa pemrograman PHP. Dotclear dapat diinstal secara otomatis atau manual dan setelah proses selesai, itu memungkinkan pengguna mengelola aspek yang berbeda dari satu atau beberapa blog. Developer dapat membuat bebarapa blog dalam satu instalasi.
 
+**Kelebihan**
+- Publikasi mudah
+- Tema yang dapat disesuaikan sepenuhnya
+- *User-friendly administration*
+- Sistem komentar yang fleksibel
+- Dioptimalkan untuk skala besar, sehingga dapat berjalan lancar untuk seribu blog dan seratus ribu komentar
+- Dilengkapi dengan *media built-in* sehingga lebih mudah dalam memasukkan file musik dan video
+
+**Kekurangan**
+- Fitur keamanan rudimeter
+- Tidak cocok untuk proyek perusahaan besar
+- Pengelola aset yang sangat terbatas
+
+**Perbandingan dengan Blogging Platform lain**
+Dibandingkan dengan blogging platform lain seperti Wordpress atau Drupal, Dotclear tidak memiliki integrasi dengan sistem atau aplikasi lain. Namun, fitur yang ditawarkan oleh Dotclear lebih beragam jika dibandingkan dengan Wordpress atau Drupal. Dotclear juga tersedia dalam bahasa Inggris dan Prancis, sementara Wordpress dan Drupal hanya tersedia dalam bahasa Inggris.
 
 # Referensi
 1. [Dotclear](https://dotclear.org/) - dotclear
 2. [ How To Install Dotclear In Ubuntu](https://www.linuxhelp.com/how-to-install-dotclear-in-ubuntu/) - linuxhelp
+3. [ Compare Dotclear vs. WordPress](https://comparisons.financesonline.com/wordpress-vs-dotclear) - financesonline
+3. [ Compare Dotclear vs. Drupal](https://comparisons.financesonline.com/dotclear-vs-drupal) - financesonline
