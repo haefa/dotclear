@@ -110,8 +110,7 @@ Untuk mengakses maintenance, maka memilih menu plugins lalu memilih sub menu mai
 - ***backup*** :  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/3.JPG?raw=true"></img>
 - ***alert settings*** :  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/4.JPG?raw=true"></img>  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/5.JPG?raw=true"></img>
+<img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/4.JPG?raw=true"></img>  <img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/5.JPG?raw=true"></img>
 
 
 # Cara Pemakaian
