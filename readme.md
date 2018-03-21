@@ -18,8 +18,9 @@
 [`^ kembali ke atas ^`](#)
 
 **Kebutuhan Sistem :**
-- `PHP 5.3 or above`
-- `Database (MySQL, Postgre)`
+- `Web Server (Apache, Nginx, etc.)`
+- `PHP 5.5 or above`
+- `Database (MySQL, Postgre, etc.)`
 
 
 **Proses Instalasi :**
@@ -77,60 +78,60 @@ $ sudo chmod a+w public/
 ```
 
 - Mengakses web `localhost:8888/dotclear/`
--
-# Konfigurasi
-[`^ kembali ke atas ^`](#)
+
+# Konfigurasi  
+[`^ kembali ke atas ^`](#)  
 Untuk mengakses konfigurasi, maka memilih menu System settings lalu memilih sub menu about:config.
 
-- ***antispam*** : mencegah agar pengguna tidak melakukan spamming dalam pembuatan akun, tipe datanya adalah integer
+- ***antispam*** : mencegah agar pengguna tidak melakukan spamming dalam pembuatan akun, tipe datanya adalah integer  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/konfigurasi/1.JPG?raw=true"></img>
-- ***breadcrumb*** :
+- ***breadcrumb*** :  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/konfigurasi/2.JPG?raw=true"></img>
-- ***dcckeditor*** :
+- ***dcckeditor*** :  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/konfigurasi/3.JPG?raw=true"></img>
-- ***dclegacyeditor*** :
+- ***dclegacyeditor*** :  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/konfigurasi/4.JPG?raw=true"></img>
-- ***pings*** :
+- ***pings*** :  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/konfigurasi/5.JPG?raw=true"></img>
-- ***system*** :
+- ***system*** :  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/konfigurasi/6.JPG?raw=true"></img>
-- ***themes*** :
+- ***themes*** :  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/konfigurasi/7.JPG?raw=true"></img>
 
 
 # Maintenance
-[`^ kembali ke atas ^`](#)
+[`^ kembali ke atas ^`](#)  
 
-Untuk mengakses maintenance, maka memilih menu plugins lalu memilih sub menu maintenance.
+Untuk mengakses maintenance, maka memilih menu plugins lalu memilih sub menu maintenance.  
 
-- ***servicing*** :
+- ***servicing*** :  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/1.JPG?raw=true"></img>
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/2.JPG?raw=true"></img>
-- ***backup*** :
+- ***backup*** :  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/3.JPG?raw=true"></img>
-- ***alert settings*** :
+- ***alert settings*** :  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/4.JPG?raw=true"></img>
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/5.JPG?raw=true"></img>
 
 
 # Cara Pemakaian
-[`^ kembali ke atas ^`](#)
+[`^ kembali ke atas ^`](#)  
 1. Akses dotclear melalui [http://localhost:888/dotclear](http://localhost:8888/dotclear)
-2. Melakukan registrasi admin, menentukan nama database dan password database
+2. Melakukan registrasi admin, menentukan nama database dan password database  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/1.png?raw=true"></img>
-3. Mengisi informasi pengguna beserta password pengguna
+3. Mengisi informasi pengguna beserta password pengguna  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/2.png?raw=true"></img>
-4. Sebelum menggunakan dotclear, login terlebih dahulu
+4. Sebelum menggunakan dotclear, login terlebih dahulu  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/login.JPG?raw=true"></img>
-5. Setelah itu akan ditampilkan halaman dashboard, yang terdapat berbagai menu yaitu My favorites, Blog, System setting, Plugins
+5. Setelah itu akan ditampilkan halaman dashboard, yang terdapat berbagai menu yaitu My favorites, Blog, System setting, Plugins  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/dashboard.JPG?raw=true"></img>
-6. Selanjutnya kita membuat postingan blog, klik new entry dan tulis postingan
+6. Selanjutnya kita membuat postingan blog, klik new entry dan tulis postingan  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/new%20entry.JPG?raw=true"></img>
-7. Setelah postingan di save akan ada pilihan comment, jika kita ingin memberikan komentar maka klik comment
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/new%20entry.JPG?raw=true"></img>
+7. Setelah postingan di save akan ada pilihan comment, jika kita ingin memberikan komentar maka klik comment  
+<img src="https://github.com/haefa/dotclear/blob/master/screenshot/cara%20pemakaian/comment.JPG?raw=true"></img>
 
 # Pembahasan
-[`^ kembali ke atas ^`](#)
+[`^ kembali ke atas ^`](#)  
 **Dotclear** merupakan salah satu aplikasi *open source blog publishing* dan *Content Management System (CMS)* naungan *General Public License (GNU)*. Dotclear ditulis dalam bahasa pemrograman PHP. Dotclear dapat diinstal secara otomatis atau manual dan setelah proses selesai, itu memungkinkan pengguna mengelola aspek yang berbeda dari satu atau beberapa blog. Developer dapat membuat bebarapa blog dalam satu instalasi.
 
 **Kelebihan**
@@ -146,7 +147,7 @@ Untuk mengakses maintenance, maka memilih menu plugins lalu memilih sub menu mai
 - Tidak cocok untuk proyek perusahaan besar
 - Pengelola aset yang sangat terbatas
 
-**Perbandingan dengan Blogging Platform lain**
+**Perbandingan dengan Blogging Platform lain**  
 Dibandingkan dengan blogging platform lain seperti Wordpress atau Drupal, Dotclear tidak memiliki integrasi dengan sistem atau aplikasi lain. Namun, fitur yang ditawarkan oleh Dotclear lebih beragam jika dibandingkan dengan Wordpress atau Drupal. Dotclear juga tersedia dalam bahasa Inggris dan Prancis, sementara Wordpress dan Drupal hanya tersedia dalam bahasa Inggris.
 
 # Referensi
