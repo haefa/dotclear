@@ -105,12 +105,12 @@ Untuk mengakses konfigurasi, maka memilih menu System settings lalu memilih sub 
 Untuk mengakses maintenance, maka memilih menu plugins lalu memilih sub menu maintenance.  
 
 - ***servicing*** :  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/1.JPG?raw=true"></img>
+<img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/1.JPG?raw=true"></img>  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/2.JPG?raw=true"></img>
 - ***backup*** :  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/3.JPG?raw=true"></img>
 - ***alert settings*** :  
-<img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/4.JPG?raw=true"></img>
+<img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/4.JPG?raw=true"></img>  
 <img src="https://github.com/haefa/dotclear/blob/master/screenshot/maintenance/5.JPG?raw=true"></img>
 
 
